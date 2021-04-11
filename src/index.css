@@ -7,10 +7,13 @@ body {
 }
 
 .app {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   background-color: #8ddbe2;
   border-radius: 8px;
+  position: relative;
+  top: 110px;
+  min-height: 393px;
 }
 
 .form input {
@@ -33,4 +36,51 @@ body {
 
 .form button:focus {
   outline: "red";
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-style: italic;
+}
+
+.weather-icons {
+  position: absolute;
+  top: 34%;
+  right: 38%;
+  opacity: 0.7;
+  z-index: 0;
+  width: 152px;
+}
+
+.h1 {
+  margin: 0;
+  position: relative;
+  top: 28px;
+  text-align: center;
+  font-size: 71px;
+  font-family: 'Roboto';
+  color: darkslategray;
+  opacity: 0.4;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4%;
+}
+
+.img {
+  position: absolute;
+  top: 20%;
+  right: 43%;
+  opacity: 0.7;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
 }

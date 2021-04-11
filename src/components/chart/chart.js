@@ -16,7 +16,7 @@ export const Chart = () => {
   const data = useSelector(selectWeather);
 
   return (
-    <ResponsiveContainer width="100%" height={400}>
+    <ResponsiveContainer width="100%" height={300}>
       <LineChart
         width={500}
         data={data}
