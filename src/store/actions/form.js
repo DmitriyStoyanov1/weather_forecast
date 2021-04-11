@@ -1,0 +1,1 @@
+export const updateForm = (payload) => ({ type: 'UPDATE_FORM', payload });
